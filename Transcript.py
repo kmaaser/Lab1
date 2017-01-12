@@ -20,9 +20,10 @@ class Transcript:
         """
         :param name: the name of the student
         """
-        pass
+        self.name = name
+        self.courseList = list()
 
-       pass
+
 
     # ------------------------------------------------------------------
 
@@ -34,6 +35,7 @@ class Transcript:
         """
 
         pass
+
 
     # ------------------------------------------------------------------
 
