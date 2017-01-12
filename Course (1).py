@@ -82,6 +82,10 @@ class Course:
         c = Course.fromCSV("Fall,2016,CS,160,Reed,3.0,A")
         """
 
-        pass
+        course = csv.split(",")
+
+        newCourse = Course(course[0], int(course[1]), course[2], int(course[3]), course[4], float(course[5]), course[6])
+
+        return newCourse
 
     # ------------------------------------------------------------------
