@@ -21,6 +21,7 @@ class Transcript:
         :param name: the name of the student
         """
         self.name = name
+        self.courseList = list()
 
 
 
