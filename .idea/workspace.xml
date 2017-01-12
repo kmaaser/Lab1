@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c407fd0d-5488-4e66-8147-c2302f4e1138" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Course (1).py" afterPath="$PROJECT_DIR$/Course (1).py" />
     </list>
     <ignored path="Lab 1 (2017).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,8 +25,8 @@
       <file leaf-file-name="Course (1).py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Course (1).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.56643355">
+              <caret line="54" column="154" selection-start-line="54" selection-start-column="154" selection-end-line="54" selection-end-column="154" />
               <folding />
             </state>
           </provider>
@@ -61,6 +61,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../CS 161/Lab 1 (2017)/Transcript.py" />
+        <option value="$PROJECT_DIR$/Course (1).py" />
       </list>
     </option>
   </component>
@@ -310,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Course (1).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.56643355">
+          <caret line="54" column="154" selection-start-line="54" selection-start-column="154" selection-end-line="54" selection-end-column="154" />
           <folding />
         </state>
       </provider>
