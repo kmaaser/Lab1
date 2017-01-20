@@ -124,6 +124,12 @@ class Transcript:
         :return: list of Course objects that match the specified search criteria
         """
 
-        pass
+        gradeList = list()
+
+        for courseInfo in self.courseList:
+            if courseInfo.grade == grade:
+                gradeList.append(courseInfo)
+                return gradeList
+        return '-1'
 
     # ------------------------------------------------------------------
