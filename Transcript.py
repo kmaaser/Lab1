@@ -50,8 +50,35 @@ class Transcript:
         pre:
 
         post: returns the GPA for the students"""
-        
-        pass
+
+        totalCredits = 0.0
+        totalQualityPoints = 0.0
+
+        for courseInfo in self.courseList:
+            totalCredits = totalCredits + courseInfo.credits
+            if courseInfo.grade == 'A':
+                totalQualityPoints = totalQualityPoints + 4.0 * courseInfo.credits
+            if courseInfo.grade == 'A-':
+                totalQualityPoints = totalQualityPoints + 3.7 * courseInfo.credits
+            if courseInfo.grade == 'B+':
+                totalQualityPoints = totalQualityPoints + 3.3 * courseInfo.credits
+            if courseInfo.grade == 'B':
+                totalQualityPoints = totalQualityPoints + 3.0 * courseInfo.credits
+            if courseInfo.grade == 'B-':
+                totalQualityPoints = totalQualityPoints + 2.7 * courseInfo.credits
+            if courseInfo.grade == 'C+':
+                totalQualityPoints = totalQualityPoints + 2.3 * courseInfo.credits
+            if courseInfo.grade == 'C':
+                totalQualityPoints = totalQualityPoints + 2.0 * courseInfo.credits
+            if courseInfo.grade == 'C-':
+                totalQualityPoints = totalQualityPoints + 1.7 * courseInfo.credits
+            if courseInfo.grade == 'D+':
+                totalQualityPoints = totalQualityPoints + 1.3 * courseInfo.credits
+            if courseInfo.grade == 'D':
+                totalQualityPoints = totalQualityPoints + 1.0 * courseInfo.credits
+            if courseInfo.grade == 'F':
+                totalQualityPoints = totalQualityPoints + 0.0 * courseInfo.credits
+        return totalQualityPoints/totalCredits
 
     # ------------------------------------------------------------------
 
