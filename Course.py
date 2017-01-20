@@ -67,7 +67,7 @@ class Course:
         Fall,2016,CS,160,Reed,3.0,A
         """
 
-        return self.semester + "," + self.year + "," + self.department + "," + self.number + "," + self.instructor + "," + self.credits + "," + self.grade
+        return self.semester + "," + str(self.year) + "," + self.department + "," + str(self.number) + "," + self.instructor + "," + str(self.credits) + "," + self.grade
 
     # ------------------------------------------------------------------
 
