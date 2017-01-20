@@ -92,8 +92,8 @@ class Transcript:
         termList = list()
 
         for courseInfo in self.courseList:
-            if self.courseList[courseInfo] == semester:
-                if self.courseList[courseInfo] == year:
+            if courseInfo.semester == semester:
+                if courseInfo.year == year:
                     termList.append(courseInfo)
                     return termList
         return '-1'
