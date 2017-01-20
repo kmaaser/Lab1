@@ -107,7 +107,13 @@ class Transcript:
         :return: list of Course objects that match the specified search criteria
         """
 
-        pass
+        departmentList = list()
+
+        for courseInfo in self.courseList:
+            if courseInfo.department == department:
+                departmentList.append(courseInfo)
+                return departmentList
+        return '-1'
 
     # ------------------------------------------------------------------
 
