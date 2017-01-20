@@ -34,7 +34,7 @@ class Transcript:
         :param course: the Course
         """
 
-        pass
+        self.courseList.append(course)
 
 
     # ------------------------------------------------------------------
@@ -50,7 +50,7 @@ class Transcript:
         pre:
 
         post: returns the GPA for the students"""
-
+        
         pass
 
     # ------------------------------------------------------------------
@@ -76,6 +76,8 @@ class Transcript:
 
         """
 
+
+
         pass
 
     # ------------------------------------------------------------------
@@ -87,9 +89,14 @@ class Transcript:
         :param year:
         :return: list of Course objects that match the specified search criteria
         """
+        termList = list()
 
-        pass
-
+        for courseInfo in self.courseList:
+            if self.courseList[courseInfo] == semester:
+                if self.courseList[courseInfo] == year:
+                    termList.append(courseInfo)
+                    return termList
+        return '-1'
     # ------------------------------------------------------------------
 
     def coursesByDepartment(self, department):
@@ -100,7 +107,7 @@ class Transcript:
         :return: list of Course objects that match the specified search criteria
         """
 
-       pass
+        pass
 
     # ------------------------------------------------------------------
 
